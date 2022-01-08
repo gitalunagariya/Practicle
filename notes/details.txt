@@ -15,13 +15,11 @@ delete blog
 Notes:
 
 in database
-In user table
+
+In user
 role = 1- admin, 0- user
 
 in blog
 is_active  --> 1- active , 0 inctive
 
-in root folder 'notes' it is details of project
-
-git repository
-https://github.com/gitalunagariya/Practicle.git
+in root folder 'prectical.postman_collection.json' it is postman collection
