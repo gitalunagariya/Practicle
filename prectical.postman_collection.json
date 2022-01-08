@@ -1,0 +1,526 @@
+{
+	"id": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+	"name": "prectical",
+	"description": "",
+	"order": [
+		"b95cbe25-0a43-0c7c-3c85-bd5ead277589",
+		"3e92c961-3291-115e-8bda-71c07a0cdd11",
+		"0615a6f9-ba8a-614e-ace6-e0306a760bd0",
+		"81d3682e-54b7-7a3e-0ac8-4cb3a6f1e8ba",
+		"279eb6c3-4841-106a-95d1-9b838d43410f",
+		"cc535118-4b4a-bbd7-606c-d1cdcc900069",
+		"7ff0e757-11c0-c314-98ee-d4b846dc36b4",
+		"9c574c37-a201-f29b-47f6-8b2eb258e35e",
+		"7ce8d106-68a2-92fa-9f10-cccf0122f980",
+		"6bec0836-6b49-1eed-94d2-c7f4cae53176"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1641624709074,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0615a6f9-ba8a-614e-ace6-e0306a760bd0",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI1NTYzLCJleHAiOjE2NDE2MjkxNjMsIm5iZiI6MTY0MTYyNTU2MywianRpIjoiYmR4OGlybWZJQzgxckZUWSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.FmshXo0QGTP75JE__TuDN_JUgJgPnGi3ZQJ4zxBV6LU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI1NTYzLCJleHAiOjE2NDE2MjkxNjMsIm5iZiI6MTY0MTYyNTU2MywianRpIjoiYmR4OGlybWZJQzgxckZUWSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.FmshXo0QGTP75JE__TuDN_JUgJgPnGi3ZQJ4zxBV6LU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/get_profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "First Blog",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "dsfgjsdgf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_date",
+					"value": "2022-01-12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_date",
+					"value": "2022-12-12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "fsdasf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641629871913,
+			"name": "get_profile",
+			"description": "http://localhost/gita-practical/api/get_profile",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"responses": []
+		},
+		{
+			"id": "279eb6c3-4841-106a-95d1-9b838d43410f",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/delete_blog",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641630283774,
+			"name": "update_blog",
+			"description": "http://localhost/gita-practical/api/update_blog",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"responses": []
+		},
+		{
+			"id": "3e92c961-3291-115e-8bda-71c07a0cdd11",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/gita-practical/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "name",
+					"value": "gita",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "gita@yopmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "dob",
+					"value": "1997-08-17",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "c_password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "sadasd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "role",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "register",
+			"description": "http://localhost/gita-practical/api/register",
+			"descriptionFormat": "html",
+			"time": 1641625617346,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6bec0836-6b49-1eed-94d2-c7f4cae53176",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/blog_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "offset",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "favorite_blog_list",
+			"description": "http://localhost/gita-practical/api/blog_list",
+			"descriptionFormat": "html",
+			"time": 1641632611127,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7ce8d106-68a2-92fa-9f10-cccf0122f980",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/add_to_favorite",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "blog_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "add_to_favorite",
+			"description": "http://localhost/gita-practical/api/add_to_favorite",
+			"descriptionFormat": "html",
+			"time": 1641632435380,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7ff0e757-11c0-c314-98ee-d4b846dc36b4",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/blog_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "offset",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "blog_list",
+			"description": "http://localhost/gita-practical/api/blog_list",
+			"descriptionFormat": "html",
+			"time": 1641630904651,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "81d3682e-54b7-7a3e-0ac8-4cb3a6f1e8ba",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/update_blog",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "First Blog",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "dsfgjsdgf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_date",
+					"value": "2022-01-12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_date",
+					"value": "2022-12-12",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "is_active",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "fsdasf",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641630247799,
+			"name": "create_blog",
+			"description": "http://localhost/gita-practical/api/create_blog",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"responses": []
+		},
+		{
+			"id": "9c574c37-a201-f29b-47f6-8b2eb258e35e",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/all_blog_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "offset",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "all_blog_list",
+			"description": "http://localhost/gita-practical/api/all_blog_list",
+			"descriptionFormat": "html",
+			"time": 1641632176676,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b95cbe25-0a43-0c7c-3c85-bd5ead277589",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/gita-practical/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "email",
+					"value": "gita@yopmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "login",
+			"description": "http://localhost/gita-practical/api/login",
+			"descriptionFormat": "html",
+			"time": 1641625581665,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cc535118-4b4a-bbd7-606c-d1cdcc900069",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2dpdGEtcHJhY3RpY2FsXC9hcGlcL2xvZ2luIiwiaWF0IjoxNjQxNjI5OTM1LCJleHAiOjE2NDE2MzM1MzUsIm5iZiI6MTY0MTYyOTkzNSwianRpIjoiRjM1UHVETkRBeXY1bFFYQSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInVzZXIiOnsiaWQiOjF9fQ.TVWeqeTltjCybU0gkx_BRY8l0b5gr943ge-JZDDpUUM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/gita-practical/api/delete_blog",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0560ab25-267c-8565-0c9a-8d80464b6a8e",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "delete_blog",
+			"description": "http://localhost/gita-practical/api/delete_blog",
+			"descriptionFormat": "html",
+			"time": 1641630674474,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
